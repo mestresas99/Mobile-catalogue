@@ -1,14 +1,13 @@
 import React, {Component} from 'react'
+import {mobile} from './object/mobile.js';
+import './App.css'
 
 class App extends Component {
   render () {
     return (
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Steve Jobs</h5>
-          <h6 class="card-subtitle mb-2 text muted">steve@apple.com</h6>
-          <p class="card-text">Stay hungry, stay</p>
-        </div>
+      <div>
+        <h2>List of mobiles:</h2>
+        <div class="list">Samsung</div>
       </div>
     );
   }
