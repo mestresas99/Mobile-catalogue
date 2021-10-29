@@ -3,38 +3,25 @@ package domains;
 import java.util.Set;
 
 public class User {
-	
-	String name;
-	int age;
-	Set<Address> address;
+	Set <Mobile> mobile;
 	
 	public User() {
 		
 	}
-	
-	public User(String name, int age, Set<Address> address) {
+
+	public User(Set<Mobile> mobile) {
 		super();
-		this.name = name;
-		this.age = age;
-		this.address = address;
+		this.mobile = mobile;
 	}
-	public String getName() {
-		return name;
+
+	public Set<Mobile> getMobile() {
+		return mobile;
 	}
-	public void setName(String name) {
-		this.name = name;
+
+	public void setMobile(Set<Mobile> mobile) {
+		this.mobile = mobile;
 	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	public Set<Address> getAddress() {
-		return address;
-	}
-	public void setAddress(Set<Address> address) {
-		this.address = address;
-	}
+	
+	
 
 }
