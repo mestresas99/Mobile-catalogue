@@ -46,17 +46,17 @@ public class ControllerEx {
 		return user;
 	}
 	
-	@RequestMapping(value="/hello/{name}", method = RequestMethod.GET)
-	public @ResponseBody String getting(@PathVariable String name,
-										@RequestParam (required=false)String surname) {
-		
-		String text;
-		if(surname == null) {
-			text = "hello "+name;
-		}else {
-			text = "hello "+name +" "+ surname;
-		}
-		return text;
-	}
+//	@RequestMapping(value="/hello", method = RequestMethod.GET)
+//	public @ResponseBody String getting(@PathVariable String name,
+//										@RequestParam (required=false)String surname) {
+//		
+//		String text;
+//		if(surname == null) {
+//			text = "hello "+name;
+//		}else {
+//			text = "hello "+name +" "+ surname;
+//		}
+//		return text;
+//	}
 
 }
