@@ -2,12 +2,14 @@ package com.example.demo.controllers;
 
 
 import java.util.HashSet;
+
 import java.util.Set;
 
 import javax.annotation.PostConstruct;
 
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -20,10 +22,11 @@ import domains.User;
 public class ControllerEx {
 	
 	User user;
+	Set<Mobile> mobile;
 	
 	@PostConstruct
 	public void init() {
-		Set<Mobile> mobile = new HashSet<>();
+		mobile = new HashSet<>();
 		mobile.add(new Mobile(1, "iPhone 7", "Apple","lorem ipsum dolor sit amet consectetur", "black", 600, "IPhone_7.png", "4.7 inch IPS", "A10 fusion", 2));
 		mobile.add(new Mobile(2, "iPhone 10", "Apple","lorem ipsum dolor sit amet consectetur", "white", 930, "IPhone_10.png", "13 inch IPS", "A10 fusion", 4));
 		mobile.add(new Mobile(3, "Samsung s20", "Apple","lorem ipsum dolor sit amet consectetur", "black", 820, "Samsung_s20.png", "4.7 inch IPS", "A14 Bionic", 2));
@@ -34,19 +37,18 @@ public class ControllerEx {
 		mobile.add(new Mobile(8, "Samsung s10", "Samsung","lorem ipsum dolor sit amet consectetur", "black", 700, "Samsung_s10.png", "4.5 inch IPS", "Octa-core", 12));
 		mobile.add(new Mobile(9, "Samsung Note 20 Ultra", "Samsung","lorem ipsum dolor sit amet consectetur", "green", 749, "Samsung_note.png", "6.7 inch IPS", "Octa-core", 12));
 		
-		
-		user = new User(mobile);
+		//user = new User(mobile);
 		
 	}
 	
+	@CrossOrigin
+	@RequestMapping(value= "/phones", method= RequestMethod.GET, produces= {MediaType.APPLICATION_JSON_VALUE})
+	public @ResponseBody Set<Mobile> userResource () {
 	
-	@RequestMapping(value= "/mobiles", method= RequestMethod.GET, produces= {MediaType.APPLICATION_JSON_VALUE})
-	public @ResponseBody User userResource () {
-	
-		return user;
+		return mobile;
 	}
 	
-//	@RequestMapping(value="/hello", method = RequestMethod.GET)
+//	@RequestMapping(value="/hello/{name}", method = RequestMethod.GET)
 //	public @ResponseBody String getting(@PathVariable String name,
 //										@RequestParam (required=false)String surname) {
 //		
