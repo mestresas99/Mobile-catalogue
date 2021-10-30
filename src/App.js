@@ -1,16 +1,26 @@
 import React, {Component} from 'react'
-import phone from './components/phone.js';
-import './App.css'
+import Mobile from './components/phones';
 
 class App extends Component {
-  render () {
-    return (
-        <div>
-          <h1>List of available mobiles:</h1> 
-        
-        </div>
-    );
+    render() {
+        return (
+            <Mobile mobiles={this.state.mobiles} />
+        )
+    }
+
+    state = {
+        mobiles: []
+    };
+
+    componentDidMount() {
+      fetch('http://localhost:8080/phones')
+          .then(res => res.json())
+          .then((data) => {
+              this.setState({ mobiles: data })
+          })
+          .catch(console.log)
   }
 }
 
 export default App;
+
