@@ -5,7 +5,7 @@ import './phones.css'
 const Mobile = ({mobiles}) => {
   return (
       <div>
-          <h1>List of available phones</h1>
+          <h1>List of available phones:</h1>
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
                       <div class="name1"><h2>{x.name} - {x.manufacturer}</h2></div>
