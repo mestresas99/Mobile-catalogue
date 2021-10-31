@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
 import Mobile from './components/phones';
 
+
 class App extends Component {
     render() {
         return (
             <Mobile mobiles={this.state.mobiles} />
+
         )
     }
 

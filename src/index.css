@@ -26,12 +26,7 @@ header {
   text-shadow: 0px 9px 6px rgb(70, 70, 70)
   }
 
-.name1 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
-.price1{
+.mobile1 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
@@ -39,16 +34,9 @@ header {
 .button1{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
 
-
-.name2 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
-.price2{
+.mobile2 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
@@ -56,15 +44,9 @@ header {
 .button2{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
 
-.name3 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
-.price3{
+.mobile3 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
@@ -72,75 +54,47 @@ header {
 .button3{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
-.name4 {
+.mobile4 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
   }
-.price4{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
 .button4{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
-.name5{
+.mobile5{
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
 }
-.price5{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+
 .button5{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
-.name6 {
+.mobile6 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
 }
-.price6{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-} 
 .button6{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
   
-.name7{
+.mobile7{
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
 }
-.price7{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+
 .button7{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   } 
-.name8 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
-.price8{
+.mobile8 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
@@ -148,24 +102,16 @@ header {
 .button8{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
   }
   
-.name9 {
+.mobile9 {
   text-align: center;
   font-size: 11px;
   font-family: Lucida Grande;
 }
-.price9{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
-   
 .button9{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 49%;
 }
   footer {
     padding: 40px 0;

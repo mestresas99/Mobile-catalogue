@@ -31,9 +31,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name1"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price1"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile1">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button1">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(1,2).map((x) => (
@@ -52,9 +54,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name2"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price2"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile2">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button2">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(2,3).map((x) => (
@@ -73,9 +77,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name3"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price3"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile3">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button3">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(3,4).map((x) => (
@@ -94,9 +100,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name4"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price4"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile4">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button4">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(4,5).map((x) => (
@@ -115,9 +123,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name5"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price5"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile5">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button5">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(5,6).map((x) => (
@@ -136,9 +146,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name6"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price6"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile6">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button6">info</button>
+                     </div> 
                   </div>
           ))}
            {mobiles.slice(6,7).map((x) => (
@@ -157,9 +169,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name7"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price7"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile7">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button7">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(7,8).map((x) => (
@@ -178,9 +192,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name8"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price8"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile8">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button8">info</button>
+                     </div> 
                   </div>
           ))}
           {mobiles.slice(8,9).map((x) => (
@@ -199,9 +215,11 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                      <div class="name9"><h2>{x.name} - {x.manufacturer}</h2></div>
-                      <div class="price9"><h2>price: {x.price}$</h2></div>
+                    <div class="mobile9">
+                      <h2>{x.name} - {x.manufacturer}</h2>
+                      <h2>price: {x.price}$</h2>
                       <button class="button9">info</button>
+                     </div> 
                   </div>
           ))}
       </div>
