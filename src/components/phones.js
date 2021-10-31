@@ -14,9 +14,20 @@ import i from './images/Samsung-Galaxy-Note-20-verde.jpg.webp';
 const Mobile = ({mobiles}) => {
   return (
       <div>
-          <h1>List of available phones:</h1>
+        <h3>Available Models:</h3>
+        <div class="models">
+          {mobiles.map((x) => (
+                  <div key={x.id}>
+                        <ul>
+                        <li>{x.manufacturer}</li>
+                       </ul>
+                     </div>             
+            ))}
+        </div>  
+        
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
+                    <div class="mobile1">
                     <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -31,7 +42,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile1">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button1">info</button>
@@ -39,7 +49,8 @@ const Mobile = ({mobiles}) => {
                   </div>
           ))}
           {mobiles.slice(1,2).map((x) => (
-                  <div key={x.id}>  
+                  <div key={x.id}> 
+                  <div class="mobile2"> 
                   <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -54,7 +65,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile2">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button2">info</button>
@@ -63,6 +73,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(2,3).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile3">
                     <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -77,7 +88,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile3">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button3">info</button>
@@ -86,6 +96,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(3,4).map((x) => (
                   <div key={x.id}>
+                       <div class="mobile4">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -99,8 +110,7 @@ const Mobile = ({mobiles}) => {
                                 default: return <img src={x.imageFile} alt={x.name} width="200" height ="133"/>;
                             }
                     })()}
-                    </p>
-                    <div class="mobile4">
+                    </p>          
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button4">info</button>
@@ -109,6 +119,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(4,5).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile5">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -123,7 +134,7 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile5">
+                    
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button5">info</button>
@@ -132,6 +143,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(5,6).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile6">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -146,7 +158,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile6">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button6">info</button>
@@ -155,6 +166,7 @@ const Mobile = ({mobiles}) => {
           ))}
            {mobiles.slice(6,7).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile7">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -169,7 +181,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile7">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button7">info</button>
@@ -178,6 +189,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(7,8).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile8">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -192,7 +204,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile8">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button8">info</button>
@@ -201,6 +212,7 @@ const Mobile = ({mobiles}) => {
           ))}
           {mobiles.slice(8,9).map((x) => (
                   <div key={x.id}>
+                      <div class="mobile9">
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="133"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="133"/>;
@@ -215,7 +227,6 @@ const Mobile = ({mobiles}) => {
                             }
                     })()}
                     </p>
-                    <div class="mobile9">
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
                       <button class="button9">info</button>

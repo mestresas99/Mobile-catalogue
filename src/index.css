@@ -12,9 +12,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-img{
-  margin-left: 44%;
-}
 
 header {
   padding: 18px 0;
@@ -26,98 +23,133 @@ header {
   text-shadow: 0px 9px 6px rgb(70, 70, 70)
   }
 
-.mobile1 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .tit{
+    font-size: 20px;
+    margin-top: 15%;
+    text-align: center;
+  }
+
+  .models {
+    font-size: 11px;
+    font-family: Lucida Grande;
+    color: rgb(218, 218, 218);
+    border: 1px solid;
+    background-color: #646E78;
+    width: 10%;
+    text-shadow: 0px 9px 6px rgb(70, 70, 70);
+    }
+
+    .mobile1 {
+      text-align: center;
+      font-size: 11px;
+      font-family: Lucida Grande;
+      margin-top: -17%;
+      margin-left: -47%;
+      }
 .button1{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
 
-.mobile2 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile2 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: -13%;
+    margin-left: 0%;
+    }
 .button2{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
 
-.mobile3 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile3 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: -17%;
+    margin-left: 47%;
+    }
 .button3{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
-.mobile4 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-  }
+  .mobile4 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: 7%;
+    margin-left: -47%;
+    }
 .button4{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
-.mobile5{
+  .mobile5 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-}
+    margin-top: -18%;
+    margin-left: 0%;
+    }
 
 .button5{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
-.mobile6 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile6 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: -17%;
+    margin-left: 47%;
+    }
 .button6{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
   
-.mobile7{
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile7 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: 7%;
+    margin-left: -47%;
+    }
 
 .button7{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   } 
-.mobile8 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile8 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: -18%;
+    margin-left: 0;
+    }
 .button8{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
   }
   
-.mobile9 {
-  text-align: center;
-  font-size: 11px;
-  font-family: Lucida Grande;
-}
+  .mobile9 {
+    text-align: center;
+    font-size: 11px;
+    font-family: Lucida Grande;
+    margin-top: -18%;
+    margin-left: 47%;
+    }
 .button9{
   background-color: #E3E4DB;
   font-family: 'Courier New', Courier, monospace;
 }
-  footer {
-    padding: 40px 0;
-    text-align: center;
-    font-size: 13px;
-    color:rgb(87, 87, 87);
-    margin-bottom: 0;
-    text-shadow: 0px 4px 6px rgb(70, 70, 70)
-    }
+
+footer {
+  padding: 40px 0;
+  text-align: center;
+  font-size: 13px;
+  color:rgb(87, 87, 87);
+  margin-bottom: 0;
+  text-shadow: 0px 4px 6px rgb(70, 70, 70)
+}
