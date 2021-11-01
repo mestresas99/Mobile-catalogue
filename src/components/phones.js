@@ -19,7 +19,7 @@ const Mobile = ({mobiles}) => {
           {mobiles.map((x) => (
                   <div key={x.id}>
                         <ul>
-                        <li>{x.manufacturer}</li>
+                        <li>{x.name}</li>
                        </ul>
                      </div>             
             ))}

@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #CDCDCD;
+  background-color: #415D43;
 
 }
 
@@ -16,12 +16,12 @@ code {
 
 header {
   padding: 18px 0;
-  background-color: #646E78;
   justify-content: left;
   font-size: calc(15px + 2vmin);
   color: rgb(218, 218, 218);
   text-align: center;
-  text-shadow: 0px 9px 6px rgb(70, 70, 70)
+  text-shadow: 0px 9px 6px rgb(70, 70, 70);
+  box-shadow: 1px 1px 7px rgb(66, 77, 65);
   }
 
   .tit{
@@ -32,37 +32,42 @@ header {
 
   h3{
     margin-left: 2%;
+    color: rgb(218, 218, 218);
   }
 
   .models {
     font-size: 11px;
     font-family: Lucida Grande;
     color: rgb(218, 218, 218);
-    border: 1px solid;
-    background-color: #646E78;
     margin-left: 2%;
-    width: 10%;
-    text-shadow: 0px 9px 6px rgb(70, 70, 70);
+    width: 12%;
+    text-shadow: 0px 9px 6px rgb(45, 45, 45);
+    box-shadow: 5px 9px 9px rgb(66, 77, 65);
+    border-radius: 8px;
+    height: 12%;
     }
 .list{
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  background-color: white;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
   margin-top: -15%;
-}
-.button1:hover{
-  background-color:#646E78 ;
-  box-shadow: 0px 9px 6px rgb(70, 70, 70);;
+  }
+
+.mobile1 {
+  text-align: center;
+  font-size: 11px;
+  font-family: Lucida Grande;
+  box-shadow: 3px 7px 9px black;
+  background-color: white;
+  border-radius: 8px;
+  }
+.mobile1:hover{
+  transform: translateY(-1px);
+  box-shadow: 0px 9px 6px rgb(0, 0, 0);
+  border-top-color: rgba(0, 0, 0, 0);
+
 
 }
-
-    .mobile1 {
-      text-align: center;
-      font-size: 11px;
-      font-family: Lucida Grande;
-      text-shadow: 0px 7px 9px rgb(140, 140, 140);
-      }
 .button1 {
   background-color: #CDCDCD;
   font-family: 'Courier New', Courier, monospace;
@@ -78,8 +83,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-  
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile2:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button2 {
       background-color: #CDCDCD;
@@ -96,8 +107,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile3:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button3 {
       background-color: #CDCDCD;
@@ -113,8 +130,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile4:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button4 {
       background-color: #CDCDCD;
@@ -130,9 +153,16 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
     }
+    .mobile5:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
+    }
+
 
     .button5 {
       background-color: #CDCDCD;
@@ -148,8 +178,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile6:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button6 {
       background-color: #CDCDCD;
@@ -165,8 +201,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile7:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
 
     .button7 {
@@ -183,8 +225,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile8:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button8 {
       background-color: #CDCDCD;
@@ -201,8 +249,14 @@ header {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-
-    text-shadow: 0px 7px 9px rgb(140, 140, 140);
+    box-shadow: 0px 7px 9px black;
+    background-color: white;
+    border-radius: 8px;
+    }
+    .mobile9:hover{
+      transform: translateY(-1px);
+      box-shadow: 0px 9px 6px rgb(0, 0, 0);
+      border-top-color: rgba(0, 0, 0, 0);
     }
     .button9 {
       background-color: #CDCDCD;
@@ -219,8 +273,8 @@ footer {
   padding: 40px 0;
   text-align: center;
   font-size: 13px;
-  color: #646E78;
+  color: rgb(218, 218, 218);
   margin-bottom: 0;
-  text-shadow: 0px 4px 6px rgb(184, 184, 184);
+  text-shadow: 0px 9px 6px rgb(70, 70, 70);
   margin-top: 4%;
   }
