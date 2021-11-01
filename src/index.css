@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;;
+  background-color: #CDCDCD;
+
 }
 
 code {
@@ -29,129 +30,190 @@ header {
     text-align: center;
   }
 
+  h3{
+    margin-left: 2%;
+  }
+
   .models {
     font-size: 11px;
     font-family: Lucida Grande;
     color: rgb(218, 218, 218);
     border: 1px solid;
     background-color: #646E78;
+    margin-left: 2%;
     width: 10%;
     text-shadow: 0px 9px 6px rgb(70, 70, 70);
     }
+.list{
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  margin-top: -15%;
+}
+.button1:hover{
+  background-color:#646E78 ;
+  box-shadow: 0px 9px 6px rgb(70, 70, 70);;
+
+}
 
     .mobile1 {
       text-align: center;
       font-size: 11px;
       font-family: Lucida Grande;
-      margin-top: -14%;
-      margin-left: -47%;
       text-shadow: 0px 7px 9px rgb(140, 140, 140);
       }
-.button1{
-  background-color: #E3E4DB;
+.button1 {
+  background-color: #CDCDCD;
   font-family: 'Courier New', Courier, monospace;
-  }
+  box-shadow: 0px 5px 9px rgb(70, 70, 70);
+}
+.button1:hover{
+  background-color:grey ;
+  box-shadow: 0px 9px 6px rgb(70, 70, 70);
+  
+} 
 
   .mobile2 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 0%;
+  
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button2{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button2 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button2:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
 
   .mobile3 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 47%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button3{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button3 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button3:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   .mobile4 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: 7%;
-    margin-left: -47%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button4{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button4 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button4:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   .mobile5 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 0%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
 
-.button5{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button5 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button5:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   .mobile6 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 47%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button6{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button6 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button6:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   .mobile7 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: 7%;
-    margin-left: -47%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
 
-.button7{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  } 
+    .button7 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button7:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   .mobile8 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 0;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button8{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-  }
+    .button8 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button8:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
   
   .mobile9 {
     text-align: center;
     font-size: 11px;
     font-family: Lucida Grande;
-    margin-top: -20%;
-    margin-left: 47%;
+
     text-shadow: 0px 7px 9px rgb(140, 140, 140);
     }
-.button9{
-  background-color: #E3E4DB;
-  font-family: 'Courier New', Courier, monospace;
-}
+    .button9 {
+      background-color: #CDCDCD;
+      font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    }
+    .button9:hover{
+      background-color:grey ;
+      box-shadow: 0px 9px 6px rgb(70, 70, 70);
+      
+    } 
 
 footer {
   padding: 40px 0;

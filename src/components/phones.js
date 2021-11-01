@@ -24,7 +24,7 @@ const Mobile = ({mobiles}) => {
                      </div>             
             ))}
         </div>  
-        
+        <div class="list">
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
                     <div class="mobile1">
@@ -231,8 +231,9 @@ const Mobile = ({mobiles}) => {
                       <h2>price: {x.price}$</h2>
                       <button class="button9">info</button>
                      </div> 
-                  </div>
+                </div>
           ))}
+      </div>
       </div>
       
   )
