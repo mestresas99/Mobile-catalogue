@@ -23,7 +23,7 @@ In the web page we can appreciate several elements:
 (I used Eclipse applicaiton) also it can be used Spring tool suite, you can download here: https://spring.io/tools
 - Install Eclipse application
 - Load back folder on Eclipse
-- In EclipseMarket search Springboot then Select and install
+- In EclipseMarket search Spring tools 4 then Select and install
 - run AppApplication.java (from back folder) -> run as -> Spring Boot App
 
 *front*
