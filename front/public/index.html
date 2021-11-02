@@ -26,7 +26,27 @@
     -->
     <title>MobileLog</title>
   </head>
-  <header>MobileLog</header>
+  <header>MobileLog  </header>
+
+  <button class="button11" onclick="myFunction()">Identificate</button>
+
+<p class ="txt"id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let person = prompt("Please enter your name:", "Harry Potter");
+  if (person == null || person == "") {
+    text = "User cancelled the prompt.";
+  } else {
+    text = "Hello " + person + " here you will find what you are searching for";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
+  </header>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

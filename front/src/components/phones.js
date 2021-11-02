@@ -12,7 +12,6 @@ import i from './images/Samsung-Galaxy-Note-20-verde.jpg.webp';
 import j from './images/icons8-agregar-a-carrito-de-compras-32.png';
 
 
-
 const Mobile = ({mobiles}) => {
 
 

@@ -24,6 +24,26 @@ header {
   box-shadow: 1px 1px 7px rgb(66, 77, 65);
   background-color: teal;
   }
+  .button11 {
+    background-color: darkgrey;
+    box-shadow: 0px 5px 9px rgb(70, 70, 70);
+    font-family: Lucida Grande;
+    margin-left: 45.5%;
+    margin-top: 1%;
+    width: 9%;
+    }
+  
+  .button11:hover{
+    background-color:grey ;
+    box-shadow: 0px 9px 6px rgb(70, 70, 70);
+    
+  } 
+  .txt{
+    text-align: center;
+    font-size: 120%;
+    color: rgb(218, 218, 218);
+    text-shadow: 0px 9px 6px rgb(70, 70, 70);
+  }
 
   .tit{
     font-size: 20px;
