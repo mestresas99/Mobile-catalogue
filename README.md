@@ -14,7 +14,7 @@ In the web page we can appreciate several elements:
 
 ## To beggin with
 
-- Clone this repository
+- Download this repository
 - You will see two folders: *front* y *back*.
 
 ## To open and run application.
@@ -22,7 +22,7 @@ In the web page we can appreciate several elements:
 *back*
 (I used Eclipse applicaiton) also it can be used Spring tool suite, you can download here: https://spring.io/tools
 - Install Eclipse application
-- Load back folder on Eclipse
+- Load back folder on Eclipse (File -> Open projects from FileSystem -> Load back folder)
 - In EclipseMarket search Spring tools 4 then Select and install
 - run AppApplication.java (from back folder) -> run as -> Spring Boot App
 
