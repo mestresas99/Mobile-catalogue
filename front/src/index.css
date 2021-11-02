@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #156f68;
+  background-color: #d5d5d5;
 
 }
 
@@ -22,7 +22,7 @@ header {
   text-align: center;
   text-shadow: 0px 9px 6px rgb(70, 70, 70);
   box-shadow: 1px 1px 7px rgb(66, 77, 65);
-  background-color: teal;
+  background-color: #2F4858;
   }
   .button11 {
     background-color: darkgrey;
@@ -41,8 +41,8 @@ header {
   .txt{
     text-align: center;
     font-size: 120%;
-    color: rgb(218, 218, 218);
-    text-shadow: 0px 9px 6px rgb(70, 70, 70);
+    color: rgb(77, 77, 77);
+    text-shadow: 0px 9px 6px rgb(204, 204, 204);
   }
 
   .tit{
@@ -54,12 +54,12 @@ header {
   h3{
     font-size: 120%;
     margin-left: 2%;
-    color: rgb(218, 218, 218);
+    color: rgb(77, 77, 77);
   }
   .shop {
     font-family: Al Nile;
     margin-left: 83%;
-    background-color: #156f68;
+    background-color: #43677e;
     color: white;
     box-shadow: 4px 2px 0px rgb(80, 80, 80);
     }
@@ -72,47 +72,53 @@ header {
   .models {
     font-size: 11px;
     font-family: Lucida Grande;
-    color: rgb(218, 218, 218);
+    color: white;
     margin-left: 2%;
     width: 13%;
-    text-shadow: 0px 9px 6px rgb(74, 74, 74);
-    box-shadow: 5px 9px 9px rgb(26, 84, 85);
+    box-shadow: 5px 9px 9px grey;
     border-radius: 8px;
     height: 12%;
-    }
+    background-color: #43677e;
+    padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
     .links {
       font-size: 14px;
       text-decoration:none;
       font-family: Lucida Grande;
-      color: rgb(218, 218, 218);
+      color:white;
       margin-left: 2%;
       width: 13%;
-      text-shadow: 0px 9px 6px rgb(74, 74, 74);
-      box-shadow: 5px 9px 9px rgb(26, 84, 85);
+      box-shadow: 5px 9px 9px grey;
       border-radius: 8px;
       height: 12%;
+      background-color: #43677e;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
       }
       h4{
         margin-left: 2%;
-        color: rgb(218, 218, 218);
+        color: rgb(77, 77, 77);
       }
       .brands {
         font-size: 11px;
         text-decoration:none;
         font-family: Lucida Grande;
-        color: rgb(218, 218, 218);
+        color: white;
         margin-left: 2%;
         width: 13%;
-        text-shadow: 0px 9px 6px rgb(74, 74, 74);
-        box-shadow: 5px 9px 9px rgb(26, 84, 85);
+        box-shadow: 5px 9px 9px grey;
         border-radius: 8px;
         height: 12%;
+        background-color: #43677e;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
         }
 .list{
   width: 40%;
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: -45%;
+  margin-top: -49%;
   }
 
 .mobile1 {
@@ -351,7 +357,7 @@ header {
 
     .contact{
       text-align: center;
-      color: white;
+      color: rgb(77, 77, 77);
       font-size: 20px;
     }  
     .name{
@@ -381,5 +387,5 @@ footer {
   margin-bottom: 0;
   text-shadow: 0px 9px 6px rgb(70, 70, 70);
   margin-top: 4%;
-  background-color: rgb(0, 51, 57);
+  background-color: #2F4858;
   }
