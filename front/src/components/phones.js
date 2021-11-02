@@ -12,6 +12,7 @@ import i from './images/Samsung-Galaxy-Note-20-verde.jpg.webp';
 import j from './images/icons8-agregar-a-carrito-de-compras-32.png';
 
 
+
 const Mobile = ({mobiles}) => {
 
 
@@ -46,7 +47,7 @@ const Mobile = ({mobiles}) => {
                        </ul>           
         </div>   
         <div class="list">
-        <h3>Complete catalogue:</h3>       
+        <h3>Complete catalogue:</h3>      
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
                     <div class="mobile1">
@@ -70,7 +71,8 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}> display information</button>                    
+                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}> display information</button> 
+                  
                      </div> 
                   </div>
           ))}
