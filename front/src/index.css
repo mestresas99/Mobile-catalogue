@@ -59,7 +59,6 @@ header {
     box-shadow: 5px 9px 9px rgb(26, 84, 85);
     border-radius: 8px;
     height: 12%;
-    background-color: teal;
     }
     .links {
       font-size: 14px;
@@ -72,7 +71,6 @@ header {
       box-shadow: 5px 9px 9px rgb(26, 84, 85);
       border-radius: 8px;
       height: 12%;
-      background-color: teal;
       }
       h4{
         margin-left: 2%;
@@ -89,7 +87,6 @@ header {
         box-shadow: 5px 9px 9px rgb(26, 84, 85);
         border-radius: 8px;
         height: 12%;
-        background-color: teal;
         }
 .list{
   width: 40%;

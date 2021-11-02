@@ -70,7 +70,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}> display information</button>
+                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}> display information</button>                    
                      </div> 
                   </div>
           ))}
