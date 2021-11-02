@@ -18,12 +18,14 @@ In the web page we can appreciate several elements:
 - You will see two folders: *front* y *back*.
 
 ## To open and run application.
+
 *back*
 (I used Eclipse applicaiton)
 - Install Eclipse application
 - Load back folder on Eclipse
 - In EclipseMarket search Springboot then Select and install
 - run AppApplication.java (from back folder) -> run as -> Spring Boot App
+
 *front*
 - Open one terminal for front folder; 'cd front'
 - 'npm install', to install depencencies
