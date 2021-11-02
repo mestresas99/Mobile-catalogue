@@ -11,7 +11,6 @@ import h from './images/picsart_09-04-02-35-341-b3c1ca0e5aaccbf09415998581258380
 import i from './images/Samsung-Galaxy-Note-20-verde.jpg.webp';
 
 
-
 const Mobile = ({mobiles}) => {
 
 
