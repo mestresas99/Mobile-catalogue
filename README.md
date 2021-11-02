@@ -20,7 +20,7 @@ In the web page we can appreciate several elements:
 ## To open and run application.
 
 *back*
-(I used Eclipse applicaiton)
+(I used Eclipse applicaiton) also it can be used Spring tool suite, you can download here: https://spring.io/tools
 - Install Eclipse application
 - Load back folder on Eclipse
 - In EclipseMarket search Springboot then Select and install
