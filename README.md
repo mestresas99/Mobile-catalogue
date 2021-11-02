@@ -38,3 +38,8 @@ In the web page we can appreciate several elements:
 - Identificate button. When this button is pressed, user will have to introduce their name and a message containing his/her name will be printed to welcome
 - Comments section: I include before the footer a comments section for users to leave their information and comments, this section non-functional just for esthetic
 
+
+
+<img width=“964” alt=“java 8 and prio java 8  array review example” src=“https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp1.png>
+<img width=“964” alt=“java 8 and prio java 8  array review example” src=“https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp2.png>
+
