@@ -17,7 +17,7 @@ In the web page we can appreciate several elements:
 - Download this repository
 - You will see two folders: *front* y *back*.
 
-## To open and run application.
+## To open and run application
 
 *back*
 (I used Eclipse applicaiton) also it can be used Spring tool suite, you can download here: https://spring.io/tools
@@ -30,4 +30,11 @@ In the web page we can appreciate several elements:
 - Open one terminal for front folder; 'cd front'
 - 'npm install', to install depencencies
 - 'npm run start' to launch the web page
+
+
+## Extra
+- For the backend I used extra added libraries suchs as Hash set, springframework library and the java.util.set libraries
+- I imported a folder containing images of the phones in the front part
+- Identificate button. When this button is pressed, user will have to introduce their name and a message containing his/her name will be printed to welcome
+- Comments section: I include before the footer a comments section for users to leave their information and comments, this section non-functional just for esthetic
 
