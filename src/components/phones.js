@@ -66,7 +66,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button1" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}> display information</button>
                      </div> 
                   </div>
           ))}
@@ -89,7 +89,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button2" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button2" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -112,7 +112,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button3" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button3" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -135,7 +135,7 @@ const Mobile = ({mobiles}) => {
                     </p>     
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button4" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button4" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -159,7 +159,7 @@ const Mobile = ({mobiles}) => {
                     
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button5" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button5" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -182,7 +182,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button6" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button6" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -205,7 +205,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button7" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button7" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -228,7 +228,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button8" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button8" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                   </div>
           ))}
@@ -251,7 +251,7 @@ const Mobile = ({mobiles}) => {
                     </p>
                       <h2>{x.name} - {x.manufacturer}</h2>
                       <h2>price: {x.price}$</h2>
-                      <button class="button9" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>info</button>
+                      <button class="button9" onClick={()=>window.alert("Name: "+x.name+"\nManufacturer: "+x.manufacturer+"\nDescription: "+x.description + "\nColor: " +x.color + "\nScreen: "+x.screen +"\nProcessor: "+x.processor +"\nRam: "+x.ram)}>display information</button>
                      </div> 
                 </div>
           ))}
