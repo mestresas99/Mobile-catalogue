@@ -16,25 +16,36 @@ const Mobile = ({mobiles}) => {
 
   return (
       <div>
-        <h3>Available Models:</h3>
+        <h4>Available Models:</h4>
         <div class="models">
           {mobiles.map((x) => (
                   <div key={x.id}>
-                        <ul>
+                        <ul>      
                         <li>{x.name}</li>
                        </ul>
                      </div>             
             ))}
         </div>  
-        <h3>Web pages:</h3>
+        <h4>Top brands:</h4>
+        <div class="brands">
+        {mobiles.map((x) => (
+                  <div key={x.id}>
+                        <ul>
+                        <li>{x.manufacturer}</li>
+                       </ul>
+                     </div>             
+            ))}           
+        </div> 
+        <h4>Web pages:</h4>
         <div class="links">
                         <ul>
-                        <li><a href="https://www.apple.com">Apple</a></li>
-                        <li><a href="https://www.samsung.com/es/">Samsung</a></li>
-                        <li><a href="https://consumer.huawei.com/es/">Huawei</a></li>
+                        <li><a href="https://www.apple.com">Apple page</a></li>
+                        <li><a href="https://www.samsung.com/es/">Samsung page</a></li>
+                        <li><a href="https://consumer.huawei.com/es/">Huawei page</a></li>
                        </ul>           
-        </div>  
+        </div>   
         <div class="list">
+        <h3>Complete catalogue:</h3>       
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
                     <div class="mobile1">
