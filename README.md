@@ -39,7 +39,6 @@ In the web page we can appreciate several elements:
 - Comments section: I include before the footer a comments section for users to leave their information and comments, this section non-functional just for esthetic
 
 
-![alt text](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true)
-<img width=“964” alt=“java 8 and prio java 8  array review example” src="https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp1.png">
-<img width=“964” alt=“java 8 and prio java 8  array review example” src="https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp2.png">
+![alt text](https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp1.png)
+![alt text](https://github.com/mestresas99/Mobile-catalogue/front/src/components/images/cp2.png)
 
