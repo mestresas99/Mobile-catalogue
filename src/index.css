@@ -285,6 +285,30 @@ header {
       
     } 
 
+    .contact{
+      text-align: center;
+      color: white;
+      font-size: 20px;
+    }  
+    .name{
+      margin-left: 42.5%;
+      width: 15%;
+    }
+    .surname{
+      margin-left: 42.5%;
+      width: 15%;
+    }
+  
+    .comments{
+      margin-left: 42.5%;
+      width: 15%;
+      height: 30%;
+    } 
+    .but{
+      margin-left: 42.5%;
+      width: 15%;
+    }
+
 footer {
   padding: 40px 0;
   text-align: center;
