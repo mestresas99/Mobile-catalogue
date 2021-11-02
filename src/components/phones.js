@@ -9,6 +9,7 @@ import f from './images/iphone-12-white-select-2020.jpeg';
 import g from './images/iPhone-X-64GB-Silver-1-1-1-1.png.jpeg';
 import h from './images/picsart_09-04-02-35-341-b3c1ca0e5aaccbf09415998581258380-640-0.jpg';
 import i from './images/Samsung-Galaxy-Note-20-verde.jpg.webp';
+import j from './images/icons8-agregar-a-carrito-de-compras-32.png';
 
 
 const Mobile = ({mobiles}) => {
@@ -49,6 +50,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(0,1).map((x) => (
                   <div key={x.id}>
                     <div class="mobile1">
+                        <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                     <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -73,6 +77,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(1,2).map((x) => (
                   <div key={x.id}> 
                   <div class="mobile2"> 
+                  <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                   <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -96,6 +103,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(2,3).map((x) => (
                   <div key={x.id}>
                       <div class="mobile3">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -119,6 +129,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(3,4).map((x) => (
                   <div key={x.id}>
                        <div class="mobile4">
+                       <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                        <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -142,6 +155,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(4,5).map((x) => (
                   <div key={x.id}>
                       <div class="mobile5">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -166,6 +182,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(5,6).map((x) => (
                   <div key={x.id}>
                       <div class="mobile6">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -189,6 +208,9 @@ const Mobile = ({mobiles}) => {
            {mobiles.slice(6,7).map((x) => (
                   <div key={x.id}>
                       <div class="mobile7">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -212,6 +234,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(7,8).map((x) => (
                   <div key={x.id}>
                       <div class="mobile8">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
@@ -235,6 +260,9 @@ const Mobile = ({mobiles}) => {
           {mobiles.slice(8,9).map((x) => (
                   <div key={x.id}>
                       <div class="mobile9">
+                      <div class="shop">
+                    <img src={j} alt={x.id} width="20" height ="20"/> Add to cart
+                    </div>
                       <p>{(() => {switch (x.imageFile) {
                                 case "./images/450_1000.jpeg": return <img src={a} alt={x.name} width="200" height ="170"/>;
                                 case "./images/235548_ed97333e-0c9d-44bc-8076-3e98c00b59ac.jpg": return <img src={b} alt={x.name} width="200" height ="170"/>;
