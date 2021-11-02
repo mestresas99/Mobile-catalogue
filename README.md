@@ -38,7 +38,9 @@ In the web page we can appreciate several elements:
 - Identificate button. When this button is pressed, user will have to introduce their name and a message containing his/her name will be printed to welcome
 - Comments section: I include before the footer a comments section for users to leave their information and comments, this section non-functional just for esthetic
 
-
+## Screenshots
+- Image 1: here you can find the implementation of the header and some of the body section
 ![alt text](https://github.com/mestresas99/Mobile-catalogue/blob/master/front/src/components/images/cp1.png)
+- Image 2: here you can find the implementation of some of the body section and the footer
 ![alt text](https://github.com/mestresas99/Mobile-catalogue/blob/master/front/src/components/images/cp2.png)
 
