@@ -1,4 +1,4 @@
-# Phone Catalog App for GuideSmiths Ltd
+# Phone Catalog App
 Web App developed with React and Java
 
 ## Project description
